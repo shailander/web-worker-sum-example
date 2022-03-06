@@ -54,8 +54,8 @@ export default function Home() {
           value={num}
           onChange={(e) => setNum(e.target.value)}
         />
-        &emsp;Eg: <button onClick={() => setNum(222222222)}>Use -{">"}</button>
-        &ensp;use 222222222
+        &emsp;Eg: <button onClick={() => setNum(333333333)}>Use -{">"}</button>
+        &ensp;use 333333333
       </div>
       {error}
       <div>
